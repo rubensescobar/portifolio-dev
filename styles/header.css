@@ -1,0 +1,101 @@
+header {
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  text-align: center;
+  justify-content: center;
+  
+
+  font: var(--subtitle);
+  color: var(--gray-500); 
+  padding: 60px;
+
+  min-height: 100vh;
+  
+ 
+
+
+  
+}
+.container {
+ 
+  width: 100%;
+  margin: 0 auto;
+  background: url(/assets/images/Background_Intro.png);
+  background-size: cover;
+  height: 100%;
+  box-sizing: border-box;
+
+}
+#profile {
+  
+  border-radius: 50%;
+  width: 87px;
+  height: 87px;
+  flex-shrink: 0;
+  border: 2px solid var(--red);
+  
+}
+
+
+
+h1 {
+  margin-top: 8px;
+  font-family: var(--font-family-asap);
+  text-align: center;
+  font: var(--title-lg-asap);
+  padding-bottom: 20px;
+ 
+}
+#p-subtitle {
+  padding-bottom: 30px;
+  font-family: var(--font-family-maven);
+  font: var(--text-sm-maven);
+  
+}
+
+
+
+#icons img {
+  margin-right: 10px;
+
+}
+
+#icon-seta {
+  display: flex;
+  width: 24px;
+  margin: auto;
+  align-items: center;
+  margin-top: 90px;
+  padding-bottom: 57px;
+}
+
+#habilites {
+  text-align: center;
+}
+#icons {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  font-family: var(--font-family-maven);
+  font: var(--text-sm-maven);
+  color: var(--gray-500);
+  gap: 20px;
+  
+}
+#icons li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+.border-icons {
+  border-radius: var(--border-radius-border-full, 999px);
+  background: var(--Base-gray-300, #292C34);
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
