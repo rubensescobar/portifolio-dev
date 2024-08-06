@@ -30,8 +30,9 @@
   
 }
 body {
-  /* font: var(--font-family-asap); */
-
+  font: var(--font-family-asap);
+  margin: 0;
+  padding: 0;
 
   
   

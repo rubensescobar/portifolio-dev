@@ -1,9 +1,10 @@
 header {
   display: flex;
   flex-direction: column;
-  width: 680px;
+  width: 100%;
   text-align: center;
   justify-content: center;
+  position: relative;
   
 
   font: var(--subtitle);
@@ -19,12 +20,14 @@ header {
 }
 .container {
  
-  width: 100%;
+  
   margin: 0 auto;
   background: url(/assets/images/Background_Intro.png);
+  position: relative;
   background-size: cover;
   height: 100%;
   box-sizing: border-box;
+  z-index: -1;
 
 }
 #profile {
@@ -99,3 +102,4 @@ h1 {
   align-items: center;
   gap: 8px;
 }
+
